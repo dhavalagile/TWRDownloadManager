@@ -20,7 +20,7 @@ typedef void(^TWRDownloadCompletionBlock)(BOOL completed);
 @property (copy, nonatomic) TWRDownloadRemainingTimeBlock remainingTimeBlock;
 
 @property (strong, nonatomic) NSURLSessionDownloadTask *downloadTask;
-@property (copy, nonatomic) NSString *fileName;
+@property (strong, nonatomic) NSString *fileName;
 @property (copy, nonatomic) NSString *friendlyName;
 @property (copy, nonatomic) NSString *directoryName;
 @property (copy, nonatomic) NSDate *startDate;
