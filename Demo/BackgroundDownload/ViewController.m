@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Touchware. All rights reserved.
 //
 
-#define FILE_URL @"http://ovh.net/files/10Mio.dat"
+#define FILE_URL @"http://18.216.94.179:3000/uploads/chat/videos/1515585512722.mp4"
 
 #import "ViewController.h"
 #import "TWRDownloadManager.h"
